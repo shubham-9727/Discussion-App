@@ -1,0 +1,27 @@
+.title{
+    background-color: darkcyan;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 3%;
+}
+
+.container{
+    display: flex;
+    height: 100%;
+}
+
+.leftpane{
+    background-color: gainsboro;
+    flex: 1;
+}
+
+.rightpane{
+    background-color: white;
+    flex: 1;
+}
+
+.question{
+    background-color: wheat;
+    cursor: pointer;
+}
